@@ -1,0 +1,17 @@
+pragma language_version >= 0.14.0;
+
+import Sigs;
+
+export ledger counter: Cell<Uint<32>>;
+
+constructor(initial: Uint<32>) {
+  counter.write(initial);
+}
+
+export circuit increment_by_private_amount(secret_amount: Uint<32>): [] {
+    assert secret_amount > 0, "Amount must be positive";
+    assert secret_amount <= 10, "Amount must be at most 10";
+    
+    const current = counter.read();
+    counter.write(current + secret_amount);
+}
