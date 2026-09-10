@@ -1,0 +1,38 @@
+{
+  "name": "midnight-level-3",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest run",
+    "compile": "compactc contracts/counter.compact --out-dir managed"
+  },
+  "dependencies": {
+    "@midnight-ntwrk/compact-runtime": "^0.8.1",
+    "@midnight-ntwrk/ledger": "^4.0.0",
+    "@midnight-ntwrk/midnight-js-contracts": "2.0.1",
+    "@midnight-ntwrk/midnight-js-http-client-proof-provider": "2.0.1",
+    "@midnight-ntwrk/midnight-js-indexer-public-data-provider": "2.0.1",
+    "@midnight-ntwrk/midnight-js-level-private-state-provider": "2.0.1",
+    "@midnight-ntwrk/midnight-js-node-zk-config-provider": "2.0.1",
+    "@midnight-ntwrk/midnight-js-types": "2.0.1",
+    "@midnight-ntwrk/wallet": "5.0.0",
+    "@midnight-ntwrk/wallet-api": "5.0.0",
+    "@midnight-ntwrk/zswap": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^1.4.0",
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/jest-dom": "^6.4.2",
+    "jsdom": "^24.0.0"
+  }
+}
