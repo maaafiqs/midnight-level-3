@@ -5,6 +5,11 @@
 ## Live Demo
 [https://medicrypt-zk.vercel.app](https://medicrypt-zk.vercel.app)
 
+## Demo Video
+[![MediCrypt ZK Demo Video](https://img.youtube.com/vi/bvLN3zgO05k/hqdefault.jpg)](https://youtu.be/bvLN3zgO05k)
+
+🔗 **Direct Link:** [https://youtu.be/bvLN3zgO05k](https://youtu.be/bvLN3zgO05k)
+
 ## Contract Address
 | Network  | Address                          |
 |----------|----------------------------------|
