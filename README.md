@@ -54,6 +54,7 @@ An on-chain observer sees whether a medical claim or attestation is valid, but *
 ```bash
 npm test
 ```
+![Test Output (3+ Tests Passing)](images/test_passed.jpg)
 
 ## CI/CD
 The CI/CD pipeline runs on every push and pull request to the `main` branch. It automatically checks out the code, installs dependencies, compiles the compact contract, and executes the complete test suite. The status badge at the top of this README reflects the build health.
