@@ -1,6 +1,6 @@
 # MediCrypt ZK
 ![CI](https://github.com/maaafiqs/midnight-level-3/actions/workflows/ci.yml/badge.svg)
-> A decentralized medical record exchange and healthcare claim verification platform that protects the confidentiality of patients' clinical histories.
+> A Confidential Credentials platform for decentralized medical record exchange and healthcare claim verification that protects the confidentiality of patients' clinical histories.
 
 ## Live Demo
 [https://medicrypt-zk.vercel.app](https://medicrypt-zk.vercel.app)

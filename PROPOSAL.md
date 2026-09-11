@@ -1,8 +1,9 @@
 # Product Proposal
+**Idea Category:** Confidential Credentials
 
 ## What is the product, and who uses it?
 
-**MediCrypt ZK** is a decentralized medical record exchange and healthcare claim verification platform that protects the confidentiality of patients' clinical histories.
+**MediCrypt ZK** is a Confidential Credentials platform for decentralized medical record exchange and healthcare claim verification. It protects the confidentiality of patients' clinical histories by proving a health credential is valid without disclosing the underlying data.
 
 Its target users include:
 
